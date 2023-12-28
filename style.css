@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./assets/Digimon-guilmon-1357631-wallhere.com.jpg');
+    background-size: cover;
+}
+
+#poke-sec {
+    display: flex;
+    justify-content: center;
+    width: 18rem;
+    height: 400px;
+    margin: 80px auto 20px;
+    border: 3px solid #373332;
+}
+
+#img-digi:hover {
+    transition: 0.6s;
+    opacity: 0.8;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.card-title, .card-text {
+    text-align: center;
+}
+
+.card-title {
+    font-size: 25px;
+}
+  
+.card {
+    background-color: #923c36;
+    color: white;
+}
+  
+#input {
+    margin: 0 auto;
+    width: 165px;
+    border-radius: 4px;
+    border-color: #373332;
+    padding: 5px 10px;
+}
+  
+#container-input {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#main-header {
+    background-color: #923c36;
+    color: white;
+    padding: 10px;
+}
+  
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+  
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
